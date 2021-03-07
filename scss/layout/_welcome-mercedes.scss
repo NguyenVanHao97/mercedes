@@ -1,0 +1,60 @@
+#welcome-mercedes{
+    background-color: #000000;
+    .welcome{
+            text-align: justify;
+            padding-top: 80px;
+            width: 73%;
+            animation-name: welcome;
+            animation-duration: 1s;
+            @keyframes welcome {
+                from{
+                    padding-top: 10px;
+                }
+                to{
+                    padding-top: 80px;
+                }
+            }
+        .welcome-header{       
+            margin-left: 0;
+            h2{
+                color: #fff;
+                font-size: 21px;
+                font-weight: 500;
+            }
+                    h2::before{
+                    margin-left: 0;
+                    background: #fff;
+                    content: "";
+                    display: block;
+                    height: 2px;
+                    margin-bottom: 1.5rem;
+                    // margin-left: calc(50% - 30px);
+                    margin-top: 0;
+                    position: relative;
+                    width: 60px;
+            }
+        }
+        .welcom-header-title{
+            p{
+                font-size: 11px;
+                color: #fff;
+            }
+        }
+        .welcome-button{
+            padding-bottom: 60px;
+            button{
+                border-radius: 0;
+                background-color: #00adef;
+                height: 33px;
+                width: 210px;
+                font-size: 12px;
+                margin-top: 30px;
+                
+            }
+            button:hover{
+                background-color: #0291ca;
+            }
+        }
+    }
+    
+}

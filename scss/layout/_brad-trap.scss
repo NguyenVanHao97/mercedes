@@ -1,0 +1,68 @@
+.brad-trap{
+    .trap-inner{
+        // z-index: 100;
+        position: absolute;
+        // top: 50%;
+        right: -230px;
+        position: fixed;
+        bottom: 50px;
+        
+        ul{ list-style: none;
+            li{
+                padding: 2px 7px;
+                background-color: #2b2929;
+                // border: 1px solid transparent;
+                margin-left: 1040px;
+                    // margin-right: 10px;
+                    height: 44px;
+                    margin-top: 1px;
+                    margin-bottom: 1px;
+                    line-height: 44px;
+                    width: 274px;
+                    transition-property: all;
+                    transition-duration: 1s;
+                    transition-timing-function: ease;
+                    // transition-delay: .5s;
+                    right: -230px;
+                a{
+                    text-decoration: none;
+                    color: white;
+                    font-size: 15px;
+                    .fa-car{
+                        padding-right: 12px;
+                        padding-left: 5px;
+                    }
+                    .fa-newspaper{
+                        padding-right: 15px;
+                        padding-left: 5px;
+                    }
+                    .fa-car-crash{
+                        padding-right: 10px;
+                        padding-left: 5px;
+                    }
+                }
+                &:hover{                
+                    margin-left: 840px;                   
+                     // right: 0px;                                                               
+            }
+            
+            }
+           
+            .list-trap{
+                span{
+                    padding: 0 10px;
+                    a{
+                        font-size: 17px;
+                        &:hover{
+                            color: #00adef;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:800px){
+    
+}

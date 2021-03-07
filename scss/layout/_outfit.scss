@@ -1,0 +1,16 @@
+#outfit{
+    background-color: #000000;
+    .outfit-content{
+        position: relative;       
+        .outfit-overlay{
+            border-bottom: 5px solid #00adef;
+            opacity: 0;
+            transition: all 1s;  
+        }   
+        &:hover {
+            .outfit-overlay{
+                opacity: 1;
+            }
+        } 
+    }
+}

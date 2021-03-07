@@ -1,0 +1,25 @@
+#search{
+    height: 95px;
+    background-color: #141414;
+    .form-search{
+        .form-search-item{
+            display: flex;
+            width: 100%;
+            padding-top: 20px;
+            input{
+                border-radius: 0;
+                background-color: #ececec;
+                border-right: 1px solid #ececec;
+            }
+            button{
+                border: 1px solid #ececec;
+                background-color: #ececec;
+                border-radius: 0;
+                color: #333333;
+            }
+            input:focus{
+                box-shadow: none;
+            }
+        }
+    }
+}
